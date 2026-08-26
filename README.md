@@ -1,4 +1,4 @@
-# [Pine: Hierarchical Projection Pruning for Resource-Efficient Mixture-of-Experts LLMs](https://github.com/blessonvar/hpp)
+# [Pine: Hierarchical Projection Pruning for Resource-Efficient Mixture-of-Experts LLMs](https://github.com/blessonvar/pine)
 <!-- To be replaced with published link -->
 Official PyTorch implementation of **Pine**: Hierarchical Projection Pruning for Resource-Efficient Mixture-of-Experts LLMs
 

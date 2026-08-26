@@ -5,7 +5,6 @@
 - Linux (tested on Ubuntu 22.04)
 - Python 3.10+
 - CUDA 12.1+ with a matching NVIDIA driver
-- At least one GPU with sufficient memory to hold the dense model in the chosen precision (see the table below)
 
 ## Step 1: create the environment
 
