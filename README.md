@@ -8,7 +8,7 @@ Official PyTorch implementation of **Pine**: Hierarchical Projection Pruning for
 <img src="./pine_system.png">
 </p>
 
-Pine unifies **inter-projection pruning** (dropping whole experts) and **intra-projection pruning** (slimming the surviving experts channel-by-channel) under a single sparsity budget. One calibrated energy constant `gamma` sets a per-expert channel floor, and two allocation exponents distribute the budget across depth and across experts:
+Pine unifies **inter-projection pruning** (dropping whole experts) and **intra-projection pruning** (slimming the surviving experts channel-by-channel) under a single sparsity budget, which we refer to as **Hierarchical Projection Pruning (HPP)**. One calibrated energy constant `gamma` sets a per-expert channel floor, and two allocation exponents distribute the budget across depth and across experts:
 
 ```
 total budget -> layer budgets (ALPHA) -> dynamic expert drop (gamma floors) -> survivor widths (BETA) -> channels
@@ -123,7 +123,7 @@ Adding an architecture requires one file in `hpp/models/`, containing a `config(
 
 ### Acknowledgement
 
-This repository is built upon the [REAP](https://github.com/CerebrasResearch/reap), and [Mosaic](https://github.com/blessonvar/Mosaic) repositories. Evaluation uses [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [EvalPlus](https://github.com/evalplus/evalplus).
+This repository is based on the [REAP](https://github.com/CerebrasResearch/reap), and [Mosaic](https://github.com/blessonvar/Mosaic) repositories. Evaluation uses [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [EvalPlus](https://github.com/evalplus/evalplus).
 
 ## Citation
 
