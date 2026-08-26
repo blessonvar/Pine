@@ -2,7 +2,7 @@
 <!-- To be replaced with published link -->
 Official PyTorch implementation of **Pine**: Hierarchical Projection Pruning for Resource-Efficient Mixture-of-Experts LLMs
 
-[Abdullah Nazari](https://scholar.google.com/citations?user=PLACEHOLDER) (University of St Andrews, UK), [Bailey J. Eccles](https://scholar.google.com/citations?user=qMdsQCsAAAAJ&hl=en) (EventMAP, UK), [Blesson Varghese](https://scholar.google.com/citations?user=PLACEHOLDER) (University of St Andrews, UK)
+[Abdullah Nazari](https://scholar.google.com/citations?hl=en&user=VJYy_s0AAAAJ) (University of St Andrews, UK), [Bailey J. Eccles](https://scholar.google.com/citations?user=qMdsQCsAAAAJ&hl=en) (EventMAP, UK), [Blesson Varghese](https://scholar.google.com/citations?user=2JoDRIMAAAAJ&hl=en) (University of St Andrews, UK)
 
 <p align="center">
 <img src="./pine_system.png">
